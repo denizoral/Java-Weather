@@ -1,7 +1,8 @@
 # Java-Weather
 > Simple java weather, little cute program that can sit on your desktop so you can watch the weather :)
+> This program utilises OpenWeatherAPI to get the weather data
 
-> Soon to be added features
+### Soon to be added features
 - 7 day weather forecast
 - Freedom of choosing your location through the user interface
 - Auto detecting location
