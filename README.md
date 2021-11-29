@@ -10,5 +10,6 @@
 - Auto detecting location
 
 
+### Small unfinished image from the program
 ![image](https://user-images.githubusercontent.com/55638248/143801675-623f83d6-94ff-40f2-b20e-40685864039e.png)
 
