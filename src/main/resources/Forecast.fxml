@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane prefHeight="400.0" prefWidth="115.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="307.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="iconView" fitHeight="95.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="cityLabel" layoutX="10.0" layoutY="14.0" text="">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="temperatureLabel" layoutX="8.0" layoutY="99.0" text="Temperature" />
+                  <Label fx:id="feelsLabel" layoutX="8.0" layoutY="124.0" text="Feels like" />
+                  <Label fx:id="weatherLabel" layoutX="8.0" layoutY="47.0" text="Sunny" />
+                  <Label fx:id="descriptionLabel" layoutX="8.0" layoutY="73.0" text="Scattered clouds" />
+                  <Label fx:id="dateLabel" layoutX="38.0" layoutY="203.0" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+      <GridPane prefHeight="400.0" prefWidth="115.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="307.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="iconView1" fitHeight="95.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="cityLabel1" layoutX="10.0" layoutY="14.0" text="">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="temperatureLabel1" layoutX="8.0" layoutY="99.0" text="Temperature" />
+                  <Label fx:id="feelsLabel1" layoutX="8.0" layoutY="124.0" text="Feels like" />
+                  <Label fx:id="weatherLabel1" layoutX="8.0" layoutY="47.0" text="Sunny" />
+                  <Label fx:id="descriptionLabel1" layoutX="8.0" layoutY="73.0" text="Scattered clouds" />
+                  <Label fx:id="dateLabel1" layoutX="38.0" layoutY="203.0" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+      <GridPane prefHeight="400.0" prefWidth="115.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="307.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="iconView2" fitHeight="95.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="cityLabel2" layoutX="10.0" layoutY="14.0" text="">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="temperatureLabel2" layoutX="8.0" layoutY="99.0" text="Temperature" />
+                  <Label fx:id="feelsLabel2" layoutX="8.0" layoutY="124.0" text="Feels like" />
+                  <Label fx:id="weatherLabel2" layoutX="8.0" layoutY="47.0" text="Sunny" />
+                  <Label fx:id="descriptionLabel2" layoutX="8.0" layoutY="73.0" text="Scattered clouds" />
+                  <Label fx:id="dateLabel2" layoutX="38.0" layoutY="203.0" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+      <GridPane prefHeight="400.0" prefWidth="115.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="307.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="iconView3" fitHeight="95.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="cityLabel3" layoutX="10.0" layoutY="14.0" text="">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="temperatureLabel3" layoutX="8.0" layoutY="99.0" text="Temperature" />
+                  <Label fx:id="feelsLabel3" layoutX="8.0" layoutY="124.0" text="Feels like" />
+                  <Label fx:id="weatherLabel3" layoutX="8.0" layoutY="47.0" text="Sunny" />
+                  <Label fx:id="descriptionLabel3" layoutX="8.0" layoutY="73.0" text="Scattered clouds" />
+                  <Label fx:id="dateLabel3" layoutX="39.0" layoutY="203.0" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+      <GridPane prefHeight="400.0" prefWidth="115.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="307.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="iconView4" fitHeight="95.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="cityLabel4" layoutX="10.0" layoutY="14.0" text="">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="temperatureLabel4" layoutX="8.0" layoutY="99.0" text="Temperature" />
+                  <Label fx:id="feelsLabel4" layoutX="8.0" layoutY="124.0" text="Feels like" />
+                  <Label fx:id="weatherLabel4" layoutX="8.0" layoutY="47.0" text="Sunny" />
+                  <Label fx:id="descriptionLabel4" layoutX="8.0" layoutY="73.0" text="Scattered clouds" />
+                  <Label fx:id="dateLabel4" layoutX="42.0" layoutY="202.0" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</HBox>
