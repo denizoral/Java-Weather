@@ -8,6 +8,7 @@
 - 7 day weather forecast
 - Freedom of choosing your location through the user interface
 - Auto detecting location
+- Much cuter design 
 
 
 ### Small unfinished image from the program
