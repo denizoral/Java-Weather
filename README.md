@@ -1,5 +1,5 @@
 # Java-Weather
-> Simple java weather program, little cute program that can sit on your desktop so you can watch the weather :)
+> Simple java weather, little cute program that can sit on your desktop so you can watch the weather :)
 
 > Soon to be added features
 - 7 day weather forecast
